@@ -1,3 +1,11 @@
+
+php自动获取网页文件名称
+
+<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>
+
+php自动获取网页文件名称
+
+
 <div data-role="page">
     <div data-role="header"></div>
     <div data-role="main" class="ui-content">
